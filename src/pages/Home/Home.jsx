@@ -1,18 +1,26 @@
 import styles from "./Home.module.css";
 import { FaAngleDown, FaCheck, FaChild, FaRoad } from "react-icons/fa";
+import { useRef } from "react";
 
 function Home() {
+  const targetRef = useRef(null);
+  const scrollToElement = () => {
+    if (targetRef.current) {
+      targetRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <main>
         <div className={styles.container1}>
           <div className={styles.inner}>
             <h1>Why Astra Properties</h1>
-            <FaAngleDown className={styles.icon} />
+            <FaAngleDown className={styles.icon} onClick={scrollToElement} />
           </div>
         </div>
       </main>
-      <div className={styles.container2}>
+      <div className={styles.container2} ref={targetRef}>
         <div className={styles.card}>
           <FaRoad className={styles["card-icon"]} />
           <h3>Urban Life</h3>
