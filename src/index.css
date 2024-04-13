@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --primary-color: rgb(236, 236, 236);
+  --secondary-color: rgb(0, 210, 35);
+  --background-color: rgb(210, 210, 210);
+  --background-card-color: rgb(205, 255, 201);
+}
+
+html,
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  display: grid;
+  grid-template-columns: minmax(auto, 50%) 1fr;
+  width: 100vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  z-index: 10;
+  backdrop-filter: blur(40px);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/src/assets/background.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}

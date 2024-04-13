@@ -1,0 +1,46 @@
+@import url(/src/index.css);
+
+.title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: clamp(0.7rem, 3vw, 2rem);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  left: 5%;
+}
+
+.navigation {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.navigation a {
+  width: 100%;
+  height: 100%;
+}
+
+.navigation button {
+  width: 100%;
+  height: 100%;
+  font-size: clamp(0.7rem, 3vw, 1.5rem);
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  transition: 0.3s ease;
+  word-wrap: break-word;
+  color: var(--primary-color);
+}
+
+.active button {
+  color: var(--secondary-color);
+}
+
+.navigation button:hover {
+  color: var(--secondary-color);
+}
