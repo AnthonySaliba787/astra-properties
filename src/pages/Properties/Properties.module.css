@@ -44,6 +44,8 @@
 }
 
 .icon {
+  position: absolute;
+  bottom: 5%;
   font-size: clamp(1.5rem, 3vw, 3rem);
   cursor: pointer;
   transition: opacity 0.3s ease;

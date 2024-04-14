@@ -22,7 +22,7 @@ function Properties() {
       <div className={styles.container2} ref={targetRef}>
         <div className={styles["property-box"]}>
           <img
-            src="/src/assets/house1.webp"
+            src="./assets/house1.webp"
             alt="Modern home"
             className={styles.image}
           />
@@ -32,7 +32,7 @@ function Properties() {
         </div>
         <div className={styles["property-box"]}>
           <img
-            src="/src/assets/house2.webp"
+            src="./assets/house2.webp"
             alt="Modern home"
             className={styles.image}
           />
@@ -45,7 +45,7 @@ function Properties() {
         </div>
         <div className={styles["property-box"]}>
           <img
-            src="/src/assets/house3.webp"
+            src="./assets/house3.webp"
             alt="Modern home"
             className={styles.image}
           />
