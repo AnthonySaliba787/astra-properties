@@ -1,7 +1,11 @@
+import styles from "./NoPage.module.css";
+
 function NoPage() {
   return (
     <>
-      <h1>Error 404 - No page found</h1>
+      <main className={styles.main}>
+        <h1>Error 404 - No page found</h1>
+      </main>
     </>
   );
 }

@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  color: rgb(42, 42, 42);
+  font-size: clamp(0.5rem, 3vw, 2rem);
+}
