@@ -36,7 +36,7 @@ function Properties() {
             alt="Modern home"
             className={styles.image}
           />
-          <h3>Modern Home</h3>
+          <h3>Green Home</h3>
           <h4>Price: 320,000$</h4>
           <p>
             A hybrid of traditional and modern, surrounded by a beautiful
@@ -49,7 +49,7 @@ function Properties() {
             alt="Modern home"
             className={styles.image}
           />
-          <h3>Modern Home</h3>
+          <h3>Traditional Home</h3>
           <h4>Price: 530,000$</h4>
           <p>
             A traditionally-designed home with a spacious front porch, perfect
