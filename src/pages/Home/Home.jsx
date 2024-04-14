@@ -1,6 +1,14 @@
 import styles from "./Home.module.css";
-import { FaAngleDown, FaCheck, FaChild, FaRoad } from "react-icons/fa";
+import {
+  FaAngleDown,
+  FaBed,
+  FaCheck,
+  FaChild,
+  FaRoad,
+  FaTree,
+} from "react-icons/fa";
 import { useRef } from "react";
+import { FaMoneyBill } from "react-icons/fa6";
 
 function Home() {
   const targetRef = useRef(null);
@@ -12,7 +20,7 @@ function Home() {
 
   return (
     <>
-      <main>
+      <main className={styles.main}>
         <div className={styles.container1}>
           <div className={styles.inner}>
             <h1>Why Astra Properties</h1>
@@ -47,6 +55,23 @@ function Home() {
             comfortably, making them perfect for new couples who want to start a
             new life, or for existing families who want something new!
           </p>
+        </div>
+      </div>
+      <div className={styles.container3}>
+        <div className={styles.tallcard}>
+          <FaMoneyBill className={styles.icon2} />
+          <h3>Affordable</h3>
+          <p>All of our options can be financed for cheap.</p>
+        </div>
+        <div className={styles.tallcard}>
+          <FaBed className={styles.icon2} />
+          <h3>Comfortable</h3>
+          <p>Furnished with the most comfortable furniture we can find.</p>
+        </div>
+        <div className={styles.tallcard}>
+          <FaTree className={styles.icon2} />
+          <h3>Natural</h3>
+          <p>Always surrounded by the beauty of nature with fresh air.</p>
         </div>
       </div>
     </>

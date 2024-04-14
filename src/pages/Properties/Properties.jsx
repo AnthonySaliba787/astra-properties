@@ -4,7 +4,7 @@ import { FaAngleDown } from "react-icons/fa";
 function Properties() {
   return (
     <>
-      <main>
+      <main className={styles.main}>
         <div className={styles.container1}>
           <div className={styles.inner}>
             <h1>Check Properties</h1>

@@ -7,22 +7,13 @@ function Nav() {
       <header>
         <h1 className={styles.title}>Astra Properties</h1>
         <nav className={styles.navigation}>
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? styles.active : "")}
-          >
+          <NavLink to="/">
             <button>Home</button>
           </NavLink>
-          <NavLink
-            to="/properties"
-            className={({ isActive }) => (isActive ? styles.active : "")}
-          >
+          <NavLink to="/properties">
             <button>Properties</button>
           </NavLink>
-          <NavLink
-            to="/about"
-            className={({ isActive }) => (isActive ? styles.active : "")}
-          >
+          <NavLink to="/about">
             <button>About</button>
           </NavLink>
         </nav>

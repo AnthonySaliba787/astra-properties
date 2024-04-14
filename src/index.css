@@ -2,8 +2,8 @@
 
 :root {
   --primary-color: rgb(236, 236, 236);
-  --secondary-color: rgb(41, 41, 41);
-  --background-color: rgb(210, 210, 210);
+  --secondary-color: rgb(153, 153, 153);
+  --background-color: rgb(255, 255, 255);
   --background-card-color: rgb(205, 255, 201);
 }
 
@@ -26,23 +26,9 @@ header {
   display: grid;
   grid-template-columns: minmax(auto, 50%) 1fr;
   width: 100vw;
-  height: 10vh;
+  height: clamp(10vh, 8vw, 20vh);
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: black;
   z-index: 10;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-  background-image: url(/src/assets/background.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
 }

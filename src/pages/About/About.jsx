@@ -4,7 +4,7 @@ import { FaAngleDown } from "react-icons/fa";
 function About() {
   return (
     <>
-      <main>
+      <main className={styles.main}>
         <div className={styles.container1}>
           <div className={styles.inner}>
             <h1>About Us</h1>
