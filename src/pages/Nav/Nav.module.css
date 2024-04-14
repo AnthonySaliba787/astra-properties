@@ -30,7 +30,7 @@
   height: 100%;
   font-size: clamp(0.9rem, 3vw, 1.5rem);
   border: none;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: transparent;
   cursor: pointer;
   transition: 0.3s ease;
   word-wrap: break-word;

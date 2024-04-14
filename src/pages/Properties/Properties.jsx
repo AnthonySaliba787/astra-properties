@@ -7,7 +7,7 @@ function Properties() {
       <main className={styles.main}>
         <div className={styles.container1}>
           <div className={styles.inner}>
-            <h1>Check Properties</h1>
+            <h1>Find Properties</h1>
             <FaAngleDown className={styles.icon} />
           </div>
         </div>

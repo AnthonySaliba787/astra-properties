@@ -22,13 +22,15 @@ body {
 }
 
 header {
-  position: absolute;
+  position: fixed;
   display: grid;
   grid-template-columns: minmax(auto, 50%) 1fr;
   width: 100vw;
   height: clamp(10vh, 8vw, 20vh);
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 10;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(40px);
 }
