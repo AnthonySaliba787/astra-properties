@@ -9,7 +9,6 @@ function Properties() {
       targetRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
-
   return (
     <>
       <main className={styles.main}>
