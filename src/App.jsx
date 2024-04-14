@@ -8,7 +8,7 @@ import Nav from "./pages/Nav/Nav";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={"/astra-properties/"}>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
